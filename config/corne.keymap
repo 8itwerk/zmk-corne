@@ -9,6 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+// -----------------------------------------------------------------------------------------
+// V1
+
         keymap {
                 compatible = "zmk,keymap";
                         
@@ -40,21 +43,54 @@
                 };
 
 // -----------------------------------------------------------------------------------------
-                        bindings = <
-                        >;
-                };
+// V2
 
+                // base_layer_qwerty {
+                //         bindings = <
 
-                        bindings = <
-                        >;
-                };
+                //         >;
+                // };
 
-                        bindings = <
-                        >;
-                };
+                // base_layer_colemak {
+                //         bindings = <
 
-                        bindings = <
-                        >;
-                };
+                //         >;
+                // };
+
+                // number_layer {
+                //         bindings = <
+
+                //         >;
+                // };
+
+                // symbol_layer {
+                //         bindings = <
+
+                //         >;
+                // };
+
+                // gui_layer {
+                //         bindings = <
+
+                //         >;
+                // };
+
+                // terminal_layer {
+                //         bindings = <
+
+                //         >;
+                // };
+
+                // edit_layer_verb_querty {
+                //         bindings = <
+
+                //         >;
+                // };
+
+                // edit_layer_noun_querty {
+                //         bindings = <
+
+                //         >;
+                // };
         };
 };
