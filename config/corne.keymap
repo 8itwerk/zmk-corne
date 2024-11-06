@@ -29,16 +29,16 @@ keymap {
     bindings = <
 &kp ESC     &trans  &trans  &trans    &trans    &trans      &kp KP_MULTIPLY &kp N7  &kp N8  &kp N9  &kp PLUS  &kp BSPC
 &kp LCTRL   &trans  &trans  &trans    &trans    &trans      &kp FSLH        &kp N4  &kp N5  &kp N6  &kp MINUS &kp CARET
-&kp LSHIFT  &trans  &trans  &trans    &trans    &trans      &kp PRCNT       &kp N1  &kp N2  &kp N3  &kp EQUAL &kp RSHFT 
-                            &kp LALT  &trans    &kp RET     &kp TAB         &kp N0  &kp ESC
+&kp LSHIFT  &trans  &trans  &trans    &trans    &trans      &kp PRCNT       &kp N1  &kp N2  &kp N3  &kp CARET &kp RSHFT 
+                            &kp LALT  &trans    &kp RET     &kp EQUAL       &kp N0  &kp ESC
     >;
   };
 
   // 2
   symbol_layer {
     bindings = <
-&kp ESC     &kp DLLR  &kp AT    &kp HASH  &kp EXCL  &kp AMPS        &trans     &trans       &trans       &trans       &trans       &trans 
-&kp LCTRL   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE        &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans 
+&kp ESC     &kp DLLR  &kp AT    &kp HASH  &kp EXCL  &kp AMPS        &trans     &trans       &trans       &trans       &kp DQT      &trans 
+&kp LCTRL   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR  &kp PIPE        &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT    &kp SQT      &trans 
 &kp LSHIFT  &trans    &kp RBRC  &kp RBKT  &kp RPAR  &kp GRAVE       &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                                 &kp LALT  &kp TILDE &kp UNDER       &kp SPACE  &trans       &kp ESC
     >;
